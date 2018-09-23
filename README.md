@@ -1,6 +1,6 @@
 # Project 4 - *Instapath*
 
-**Name of your app** is a photo sharing app using Parse as its backend.
+**Instapath** is a photo sharing app using Parse as its backend.
 
 Time spent: **15** hours spent in total
 
