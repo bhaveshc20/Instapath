@@ -1,0 +1,6 @@
+framework module Pods_InstaPathUITests {
+  umbrella header "Pods-InstaPathUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

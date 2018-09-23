@@ -1,0 +1,6 @@
+framework module Pods_InstaPathTests {
+  umbrella header "Pods-InstaPathTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
