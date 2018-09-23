@@ -10,14 +10,17 @@
 		062882B663EE17C013BC6E31 /* Pods_InstaPathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A60612C2357C868A74F741C /* Pods_InstaPathTests.framework */; };
 		4D124455D23DD42B893FCF91 /* Pods_InstaPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335DC7ADA62BB7A09CD9ADA6 /* Pods_InstaPath.framework */; };
 		560864A35356881BAF151CF9 /* Pods_InstaPathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D9294A0CE6CEC615CA531C /* Pods_InstaPathUITests.framework */; };
+		CE59F3FE21583B630002FDF7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59F3FD21583B630002FDF7 /* Post.swift */; };
+		CE59F40021583C670002FDF7 /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59F3FF21583C670002FDF7 /* PhotoMapViewController.swift */; };
 		CE8916A221571CE300DA6EF6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8916A121571CE300DA6EF6 /* LoginViewController.swift */; };
 		CEA4D76E2153348C00C6CF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4D76D2153348C00C6CF96 /* AppDelegate.swift */; };
-		CEA4D7702153348C00C6CF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4D76F2153348C00C6CF96 /* ViewController.swift */; };
 		CEA4D7732153348C00C6CF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4D7712153348C00C6CF96 /* Main.storyboard */; };
 		CEA4D7752153348D00C6CF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4D7742153348D00C6CF96 /* Assets.xcassets */; };
 		CEA4D7782153348D00C6CF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4D7762153348D00C6CF96 /* LaunchScreen.storyboard */; };
 		CEA4D7832153348D00C6CF96 /* InstaPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4D7822153348D00C6CF96 /* InstaPathTests.swift */; };
 		CEA4D78E2153348D00C6CF96 /* InstaPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4D78D2153348D00C6CF96 /* InstaPathUITests.swift */; };
+		CECCDF0A21578EDC00A238D5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCDF0921578EDC00A238D5 /* FeedViewController.swift */; };
+		CECCDF0C2157A11A00A238D5 /* PostImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCDF0B2157A11A00A238D5 /* PostImageViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +50,11 @@
 		5ED03DA279C84272DAF144D3 /* Pods-InstaPathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPathUITests/Pods-InstaPathUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66D9294A0CE6CEC615CA531C /* Pods_InstaPathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaPathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A300E389353040E0FF218C63 /* Pods-InstaPathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPathTests/Pods-InstaPathTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE59F3FD21583B630002FDF7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CE59F3FF21583C670002FDF7 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
 		CE8916A121571CE300DA6EF6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEA4D76A2153348C00C6CF96 /* InstaPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA4D76D2153348C00C6CF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA4D76F2153348C00C6CF96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEA4D7722153348C00C6CF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA4D7742153348D00C6CF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA4D7772153348D00C6CF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		CEA4D7892153348D00C6CF96 /* InstaPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA4D78D2153348D00C6CF96 /* InstaPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaPathUITests.swift; sourceTree = "<group>"; };
 		CEA4D78F2153348D00C6CF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECCDF0921578EDC00A238D5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CECCDF0B2157A11A00A238D5 /* PostImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,12 +146,15 @@
 			isa = PBXGroup;
 			children = (
 				CEA4D76D2153348C00C6CF96 /* AppDelegate.swift */,
-				CEA4D76F2153348C00C6CF96 /* ViewController.swift */,
 				CEA4D7712153348C00C6CF96 /* Main.storyboard */,
 				CEA4D7742153348D00C6CF96 /* Assets.xcassets */,
 				CEA4D7762153348D00C6CF96 /* LaunchScreen.storyboard */,
 				CEA4D7792153348D00C6CF96 /* Info.plist */,
 				CE8916A121571CE300DA6EF6 /* LoginViewController.swift */,
+				CECCDF0921578EDC00A238D5 /* FeedViewController.swift */,
+				CECCDF0B2157A11A00A238D5 /* PostImageViewCell.swift */,
+				CE59F3FD21583B630002FDF7 /* Post.swift */,
+				CE59F3FF21583C670002FDF7 /* PhotoMapViewController.swift */,
 			);
 			path = InstaPath;
 			sourceTree = "<group>";
@@ -347,11 +356,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-InstaPath/Pods-InstaPath-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,8 +394,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE59F40021583C670002FDF7 /* PhotoMapViewController.swift in Sources */,
+				CE59F3FE21583B630002FDF7 /* Post.swift in Sources */,
 				CE8916A221571CE300DA6EF6 /* LoginViewController.swift in Sources */,
-				CEA4D7702153348C00C6CF96 /* ViewController.swift in Sources */,
+				CECCDF0A21578EDC00A238D5 /* FeedViewController.swift in Sources */,
+				CECCDF0C2157A11A00A238D5 /* PostImageViewCell.swift in Sources */,
 				CEA4D76E2153348C00C6CF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

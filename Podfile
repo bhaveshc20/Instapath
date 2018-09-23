@@ -7,6 +7,7 @@ target 'InstaPath' do
 
   # Pods for InstaPath
   pod 'Parse'
+pod 'ParseUI'
 
 
   target 'InstaPathTests' do
